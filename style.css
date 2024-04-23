@@ -22,7 +22,7 @@ body {
 
 #menu {
     text-align: right;
-    margin-top: 80px;
+    margin-top: 49px;
 }
 
 #menu ul {
@@ -44,4 +44,61 @@ body {
 
 a {
     color: black;
+    text-decoration: none;
+}
+
+#headerCta h1 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    color: #000000;
+}
+
+#headerCta p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #575455;
+}
+
+#buttonCta {
+    color: white;
+    background-color: #1F7CFF;
+    border-radius: 50px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    padding: 10px 25px 10px 25px;
+}
+
+#headerImg {
+    margin-left: 120px;
+}
+
+#headerImg img {
+    width: 100%;
+}
+
+#serviçosPrestados {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#textClient {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #070F18;
+}
+
+#headerlogo {
+    text-align: center;
+    margin-right: 50px;
 }
