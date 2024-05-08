@@ -55,7 +55,7 @@ a {
     color: #000000;
 }
 
-#headerCta p {
+.gray {
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -101,4 +101,67 @@ a {
 #headerlogo {
     text-align: center;
     margin-right: 50px;
+}
+
+h2.red {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #f75c4e;
+}
+
+h1.black{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: black;
+    margin-top: 0px;
+}
+
+.icones {
+    height: 40px;
+    width: 40px;
+}
+
+.textCenter {
+   text-align: center; 
+}
+
+#services .textCenter h3 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #070f18;
+}
+
+#imgEquipe {
+    width: 100%;
+}
+
+#contactForm {
+    margin-left: 75px;
+}
+
+#contact {
+    margin-top: 100px;
+}
+
+#contactForm input {
+    background-color: #F5F6FB;
+    border-radius: 50px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #575455;
+    border: 0;
+    width: 50%;
+    padding: 15px 25px 15px 25px;
 }

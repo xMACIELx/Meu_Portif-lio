@@ -9,6 +9,7 @@
     <title> Meu Portifolio </title>
 </head>
 <body>
+
     <div class="container">
         <div id="header">
             Portifolio
@@ -29,7 +30,7 @@
                 Olá, Meu nome é <br> 
                 Pedro Henrique
             </h1>
-            <p>
+            <p class="gray">
                 Sou programador e gostaria de aprensetar meu <br>
                 trabalho para você através deste portifólio.   
             </p>
@@ -49,6 +50,60 @@
         <br>
         <div id="headerlogo">
             <img src="/Imagens/logoMedicalSan.svg" alt="">
+        </div>
+    </div>
+
+    <div class="container textCenter">
+        <div>
+            <h2 class="red"> Coheça </h2>
+            <h1 class="black"> Meus Serviços </h1>
+        </div>
+    </div>
+
+    <div class="container" id="services">
+        <div class="textCenter">
+            <img class="icones" src="/icones/bag.svg">
+            <h3> Consultoria </h3>
+            <p class="gray"> 
+                Te ajudo a organizar sua empresa<br> 
+                e melhorar seus resultados.
+            </p>
+        </div>
+
+        <div class="textCenter">
+            <img class="icones" src="/icones/envelope.svg">
+            <h3> E-mail Marketing </h3>
+            <p class="gray">
+                Gerenciar campanhas é difícil. <br>
+                Conte comigo para te ajudar.
+            </p>
+        </div>
+
+        <div class="textCenter">
+            <img class="icones" src="/icones/globo.svg">
+            <h3> Criação de Sites </h3>
+            <p class="gray">
+                Desenvolvo seu site inteiro <br>
+                do zero e te entrego prontinho.
+            </p>
+        </div>
+    </div>
+
+    <div class="container" id="contact">
+        <div id="contactImg">
+            <img id="imgEquipe" src="/Imagens/equipe.svg">
+        </div>
+
+        <div id="contactForm">
+            <h2 class="red"> Economize seu tempo </h2>
+            <h1 class="black"> Ganhe mais dinheiro </h1>
+            <p class="gray">
+                Digite aqui deu endereço de e-mail. Eu entrarei em <br>contato para fornecer um diagnóstico gratuito.
+            </p>
+            <form action="https://formspree.io/f/mrgnjvje" method="POST">
+                <input name="contactEmail" placeholder="Seu e-mail" type="text" required><br>
+                <button type="submit"> Enviar </button>
+            </form>
         </div>
     </div>
 
