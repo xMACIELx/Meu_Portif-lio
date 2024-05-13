@@ -162,6 +162,27 @@ h1.black{
     line-height: 24px;
     color: #575455;
     border: 0;
-    width: 50%;
-    padding: 15px 25px 15px 25px;
+    width: 70%;
+    padding: 15px 30px 15px 30px;
+}
+
+#contactForm button {
+    background-color: #1f7cff;
+    border-radius: 50px;
+    padding: 15px 30px 15px 30px;
+    color: white;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+#portifolioTitulo {
+    margin-top: 70px;
+}
+
+#portifolioImg img {
+    width: 100%;
 }
